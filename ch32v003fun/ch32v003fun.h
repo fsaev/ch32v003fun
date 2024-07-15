@@ -11118,6 +11118,10 @@ typedef struct
 #define SPI_NSS_Soft                       ((uint16_t)0x0200)
 #define SPI_NSS_Hard                       ((uint16_t)0x0000)
 
+/* SPI_Slave_Select_Polarity */
+#define SPI_NSS_HIGH                       ((uint16_t)0x0100)
+#define SPI_NSS_LOW                        ((uint16_t)0x0000)
+
 /* SPI_BaudRate_Prescaler */
 #define SPI_BaudRatePrescaler_2            ((uint16_t)0x0000)
 #define SPI_BaudRatePrescaler_4            ((uint16_t)0x0008)
